@@ -1,0 +1,24 @@
+# Local tools and package caches (kept on D: for this workspace)
+.tools/
+
+# .NET build output
+**/bin/
+**/obj/
+
+# Test and IDE output
+TestResults/
+.vs/
+.idea/
+*.user
+*.suo
+
+# Generated performance evidence
+docs/performance-testing/results/*
+!docs/performance-testing/results/.gitkeep
+
+# VS Code local settings
+.vscode/
+
+# Local secrets
+.env
+.env.*
